@@ -1,8 +1,18 @@
 #board {
   margin-top: 10px;
+  text-align: center;
 }
 
 .box {
   border: 1px solid black;
   height: 150px;
+}
+
+hr{
+  border-color:red;
+  height: 3px;
+}
+
+body{
+  text-align: center;
 }
