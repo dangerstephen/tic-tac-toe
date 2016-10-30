@@ -9,8 +9,14 @@
     <!-- Bootstrap CSS from CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+
     <!-- link to custom stylesheet (always require after Bootstrap) -->
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+
+    <!-- links to google fonts used  -->
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Quicksand" rel="stylesheet">
+
+
     <!-- jQuery from CDN -->
     <script
       src="https://code.jquery.com/jquery-3.1.1.js"
@@ -19,6 +25,8 @@
 
     <!-- link to custom javascript file (always require after external JS libraries) -->
     <script type="text/javascript" src="js/app.js"></script>
+
+
 
 
     <title>Tic Tac Toe</title>
@@ -39,36 +47,27 @@
 
           <!-- you can put rows inside of columns! -->
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
-          <div class="row">
-            <div class="col-md-4 box"></div>
-            <div class="col-md-4 box"></div>
-            <div class="col-md-4 box"></div>
-          </div>
 
-
-
-          <div class="row">
-            <div class="col-md-4 box"></div>
-            <div class="col-md-4 box"></div>
-            <div class="col-md-4 box"></div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 box"></div>
-            <div class="col-md-4 box"></div>
-            <div class="col-md-4 box"></div>
-          </div>
-
-
-
-
-
-        </div>
+  <div class="row">
+             <div class="col-md-4 box" id="cell0">  </div>
+             <div class="col-md-4 box" id="cell1">   </div>
+             <div class="col-md-4 box" id="cell2">   </div>
+           </div>
+           <div class="row">
+             <div class="col-md-4 box" id="cell3">     </div>
+             <div class="col-md-4 box" id="cell4">       </div>
+             <div class="col-md-4 box" id="cell5">       </div>
+           </div>
+           <div class="row">
+             <div class="col-md-4 box" id="cell6">     </div>
+             <div class="col-md-4 box" id="cell7">  </div>
+             <div class="col-md-4 box" id="cell8">       </div>
+           </div>
       </div>
-      <hr>
-      <button type="button" class="btn btn-danger">Reset Game</button>
 
     </div>
+    <hr>
+    <button type="button" class="btn btn-danger"><a href="index.html">Reset Game</a></button>
 
   </body>
 </html>

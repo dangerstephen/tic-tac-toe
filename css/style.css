@@ -6,6 +6,7 @@
 .box {
   border: 1px solid black;
   height: 150px;
+  font-family: 'Coiny', cursive;;
 }
 
 hr{
@@ -15,4 +16,7 @@ hr{
 
 body{
   text-align: center;
+  background-color: #00EDFF;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
 }
