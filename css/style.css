@@ -1,16 +1,55 @@
 #board {
   margin-top: 10px;
   text-align: center;
-}
-
-.box {
-  border: 1px solid white;
-  height: 150px;
-  font-family: 'Coiny', cursive;;
-  color:grey;
   
 }
 
+.box {
+  border: 6px solid white;
+  height: 150px;
+  font-family: 'Coiny', cursive;;
+  color:grey;
+
+
+
+
+
+}
+#cell0{
+  border-top-style: none;
+border-left-style: none;
+}
+
+#cell1{
+  border-top-style: none;
+}
+
+#cell2{
+  border-top-style: none;
+  border-right-style: none;
+}
+
+#cell3{
+  border-left-style: none;
+}
+
+#cell5{
+  border-right-style: none;
+}
+
+#cell6{
+  border-left-style: none;
+  border-bottom-style: none;
+}
+
+#cell7{
+  border-bottom-style: none;
+}
+
+#cell8{
+  border-bottom-style: none;
+  border-right-style: none;
+}
 hr{
   border-color:white;
   height: 3px;
@@ -21,4 +60,9 @@ body{
   background-color: #00EDFF;
   color: white;
   font-family: 'Quicksand', sans-serif;
+
+}
+
+.btn-secondary{
+  margin: 20px;
 }
