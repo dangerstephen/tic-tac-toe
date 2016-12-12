@@ -57,10 +57,10 @@ function isGameOver(){
 }
 }
 
+
 // // function to determine draw
-// function isGameDraw(){
-//   while (this>=9) {
-//   alert("Game is a draw");
-// }
-// }
-//
+function isGameDraw(){
+  while (x>=9) {
+  alert("Game is a draw");
+}
+}
